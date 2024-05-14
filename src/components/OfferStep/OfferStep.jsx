@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { GetStart } from './Components/GetStart/GetStart'
-import { OfferDetails } from './Components/OfferDetails /OfferDetails'
+import { OfferDetails } from './Components/OfferDetails/OfferDetails'
 import { Offer } from './Components/Offer/Offer'
 
 
