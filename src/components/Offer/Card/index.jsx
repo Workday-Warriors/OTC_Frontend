@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { Link } from "react-router-dom";
 import token from "../../../assets/imgs/logo 20.png";
 import "./card.css";
@@ -46,9 +47,9 @@ const Card = ({ percentage }) => {
         <Link className="w-1/2 flex justify-center items-center px-6 py-4 shadow-btn font-medium hover:cursor-pointer" to="/offerDetails">
           View Details
         </Link>
-        <div className="w-1/2 flex justify-center items-center px-6 py-4 shadow-btn font-medium hover:cursor-pointer">
+        <Link to="/buy-offer/1" className="w-1/2 flex justify-center items-center px-6 py-4 shadow-btn font-medium hover:cursor-pointer">
           Buy Now
-        </div>
+        </Link>
       </div>
     </div>
   );

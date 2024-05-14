@@ -7,7 +7,7 @@ import CustomConnectButton from "../../connectButton/connectButton";
 
 const Header = () => {
   return (
-    <div className=" fixed top-0 right-0 flex justify-between items-center w-full h-[103px] bg-black pt-9 pb-7 pl-7 pr-[70px] border-b-[1px] border-[#969696] z-10">
+    <div className=" fixed top-0 right-0 flex justify-between items-center w-full h-[103px] bg-black pt-9 pb-7 pl-7 pr-[70px] border-b-[1px] border-[#969696] z-[100]">
       <div className="flex items-center space-x-7">
         <img src={logo} alt="logo.png" className="w-[206px] h-[40px]" />
         <div className="flex items-center space-x-2.5 h-[39px]">
