@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import SidebarContent from "./sidebarContent";
 const Sidebar = () => {
   return (
-    <div className="fixed top-[103px] left-0 w-[257px] h-screen pl-[14px] pr-3.5 pt-5 bg-[#101116] shadow-cs z-[1]git overflow-hidden ">
+    <div className="fixed top-[103px] left-0 w-[257px] h-screen pl-[14px] pr-3.5 pt-5 bg-[#101116] shadow-cs z-10 z-[1]git overflow-hidden ">
       <SidebarContent img={chart_mixed} />
       <SidebarContent img={chart_mixed} />
       <SidebarContent img={chart_mixed} />
