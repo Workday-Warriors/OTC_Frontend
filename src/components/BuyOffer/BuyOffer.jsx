@@ -1,7 +1,7 @@
 import { AiOutlineExclamationCircle } from "react-icons/ai";
 import { Select } from './Components/Select/Select';
 import { LineStep } from './Components/LineStep/LineStep';
-import { MyOrders } from './Components/MyOrders /MyOrders';
+import { MyOrders } from './Components/MyOrders/MyOrders';
 import logo from "../../../src/assets/imgs/logo.png";
 import { IoIosClose } from "react-icons/io";
 import { TfiWorld } from "react-icons/tfi";
